@@ -311,3 +311,7 @@ footer a.cgv {
     color: black;
 }
 
+a:hover.cgv {
+    color: #ADD981;
+}
+
