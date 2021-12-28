@@ -1,0 +1,313 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat', Helvetica;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+
+
+/********************** Header ************************/
+
+section.top-page {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+    position: relative;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+
+
+/************************* Menu de navigation *******************/
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav.nav li a:hover {
+    color: #ADD981;
+}
+
+
+/******************* Page de bienvenue (landing page) *******************/
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size:  120px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    width: 60%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+a:hover.scroll-down {
+    color: #ADD981;
+}
+
+
+
+
+/************************** Services ***************************/
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #ADD981;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+a.service-link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.service-link {
+    color: #ADD981;
+}
+
+
+
+
+
+/************************* Nos meilleures ventes **********************/
+
+.bests-sellings {
+    margin: 100px;
+}
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-sellings-container {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.bests-sellings-box {
+    color: black;
+    text-decoration: none;
+}
+
+
+.bests-sellings-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.img-sellings-1 {
+    background-image: url(../images/nos_meilleures_ventes/1.jpg);
+}
+
+.img-sellings-2 {
+    background-image: url(../images/nos_meilleures_ventes/2.jpg);
+}
+
+.img-sellings-3 {
+    background-image: url(../images/nos_meilleures_ventes/3.jpg);
+}
+
+.img-sellings-4 {
+    background-image: url(../images/nos_meilleures_ventes/4.jpg);
+}
+
+.bests-sellings-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.bests-sellings-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.bests-sellings-price {
+    color: #8caf69;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+/*************************** Nos produits ***********************/
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+/*.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}*/
+
+.all-items {
+    margin: 100px;
+}
+
+.all-items-container {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.all-items-box {
+    color: black;
+    text-decoration: none;
+}
+
+
+.all-items-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.img-items-1 {
+    background-image: url(../images/nos_produits/plantes.jpeg);
+}
+
+.img-items-2 {
+    background-image: url(../images/nos_produits/diy.jpeg);
+}
+
+.img-items-3 {
+    background-image: url(../images/nos_produits/terrariums.jpeg);
+}
+
+.img-items-4 {
+    background-image: url(../images/nos_produits/accessoires.jpeg);
+}
+
+.all-items-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.all-items-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.all-items-description {
+    color: #8caf69;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+/************************* Footer *********************/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #eeebeb;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
